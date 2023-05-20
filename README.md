@@ -1,0 +1,2 @@
+# wwmogu.github.io
+wiki
