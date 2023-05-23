@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terminal</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body class="bg-gray-900">
+    <div class="flex justify-center items-center h-screen">
+      <div class="terminal w-full h-full p-4 rounded-lg shadow-lg">
+        <div class="terminal-container">
+          <div class="terminal-content" id="terminal-content">
+            <p>Welcome to the Terminal</p>
+            <p>Type 'help' for available commands.</p>
+          </div>
+          <div class="terminal-input">
+            <span class="prompt">wwmogu@adelaide:~$</span>
+            <input type="text" id="command-input" class="bg-transparent text-white focus:outline-none" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="scripts/main.js"></script>
+</html>

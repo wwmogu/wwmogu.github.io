@@ -1,0 +1,9 @@
+/* Additional custom styles */
+.terminal {
+  background-color: #1a202c;
+  color: #e2e8f0;
+}
+
+.prompt {
+  color: #38b2ac;
+}
